@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /native
+
+
+native:
+  staticFilePatch: "E:\\GongCJ\\2021综合基础知识"
+
+
+#Thymeleaf配置
+spring:
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+    mode: HTML5
+    prefix: classpath:/templates/
+    suffix: .html

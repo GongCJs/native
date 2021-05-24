@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>视频速度调节</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                <p>
+                    毛泽东思想
+                </p>
+                <video class="video" autobuffer controls src="videos/政治9-毛泽东思想（下）.mp4" type="video/mp4"></video>
+                <p>
+                    选择播放速率：
+                    <select class="selRate" onchange="onchangePlaybackRate(this)">
+                        <option value="0.5">0.5</option>
+                        <option value="1" selected>1.0</option>
+                        <option value="1.25">1.25</option>
+                        <option value="1.5">1.5</option>
+                        <option value="1.75">1.75</option>
+                        <option value="2">2.0</option>
+                        <option value="2.25">2.25</option>
+                        <option value="2.5">2.5</option>
+                        <option value="2.75">2.75</option>
+                        <option value="3">3.0</option>
+                    </select>
+                </p>
+            </li>
+        </ul>
+    </div>
+</body>
+<link rel="stylesheet" href="../static/css/index.css">
+<script type="application/javascript" src="js/jquery.js"></script>
+<script type="application/javascript" src="js/index.js"></script>
+</html>
